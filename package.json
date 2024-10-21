@@ -1,0 +1,39 @@
+{
+  "name": "vue-cls",
+  "version": "1.0.5",
+  "description": "A simple utility to merge class names, handle dynamic class bindings, and conditionally apply classes in Vue components based on component state or props.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saver711/vue-cls.git"
+  },
+  "keywords": [
+    "vue",
+    "cn",
+    "cls",
+    "clsx",
+    "tailwind-merge",
+    "tailwind",
+    "merge",
+    "classnames",
+    "dynamic",
+    "shadcn"
+  ],
+  "author": "Ahmed Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saver711/vue-cls/issues"
+  },
+  "homepage": "https://github.com/saver711/vue-cls#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "tailwind-merge": "^1.10.0",
+    "vue": "^3.5.12"
+  }
+}
